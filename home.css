@@ -1,0 +1,49 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: rgb(8, 71, 90);
+    font-weight: 500;
+}
+
+figure{
+    margin: 0;
+}
+
+article{
+    padding: 100px 0;
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+
+.box1{
+    position: relative;
+    height: 600px;
+    background-image: url('https://images.pexels.com/photos/39002/football-american-football-college-alabama-39002.jpeg?cs=srgb&dl=alabama-american-football-athletes-39002.jpg&fm=jpg');
+    size: auto 650px;
+    position: top center;
+    background-attachment: fixed;
+}
+
+.logo{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    background-color: rgba(red, green, blue, alpha, -0.10);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+body{
+    background-color: bisque;
+}
+

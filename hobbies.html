@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hobbies</title>
+<style>
+
+ body{
+     margin: 0;
+     padding: 0;
+     background: rgb(63, 177, 148);
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .container{
+     width: 1280px;
+     
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     margin: 70px auto 0;
+     
+
+ }
+
+ .container .box{
+     position: relative;
+     width: 300px;
+     height: 200px;
+     background: #ff0;
+     margin: 10px;
+     box-sizing: border-box;
+     display: inline-block;
+     overflow: hidden;
+     background-size: cover;
+     
+ }
+
+.container .box .imgBox {
+    position: absolute;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+   transition: transform 1s;
+   display: block;
+   
+    
+}
+    
+
+
+
+.container .box:hover .imgBox {
+    transform: scale(1.2);
+    
+}
+
+.container .box .text{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0,0,0,.7);
+    transform: scaleY(0);
+    transition: transform .5s;
+    text-align: center;
+}
+
+.container .box .text .movetext{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+
+}
+
+.container .box .text .movetext h2{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #ff0;
+}
+
+.container .box .text .movetext p{
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 20px;
+    color: #ff0;
+}
+
+.container .box:hover .text{
+    transform: scaleY(1);
+}
+
+</style>
+</head>
+
+
+<body>
+    <div class="container">
+            <div class="box">
+                <div class="imgBox">
+                    <img src="http://i44.photobucket.com/albums/f28/doujones/IMG_20180425_162754_924_zpsqrd7etbh.jpg" style="width: 100%"></div>
+                
+                <div class="text">
+                    <div class="movetext">
+                    <p>Music</p>
+                </div>
+                </div>
+                </div>
+
+<div class="box">
+<div class="imgBox">
+<img src="http://i44.photobucket.com/albums/f28/doujones/IMG_20180225_194416_zps03lpwjmt.jpg" style="width: 100%"></div>
+
+<div class="text">
+<div class="movetext">
+<p>Traveling</p>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="http://i44.photobucket.com/albums/f28/doujones/IMG_20180214_061250_535_zpsi0tgxf4r.jpg" style="width: 100%"></div>
+
+<div class="text">
+<div class="movetext">
+<p>Driving Cars</p>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="http://i44.photobucket.com/albums/f28/doujones/IMG_20180306_205405_927_zps0yaqtwhs.jpg" style="width: 100%"></div>
+
+<div class="text">
+<div class="movetext">
+<p>Football</p>
+</div>
+</div>
+</div>
+<div class="box">
+<div class="imgBox">
+<img src="http://i44.photobucket.com/albums/f28/doujones/IMG_20180326_153609_253_zpsbm1mdg8i.jpg" style="width: 100%"></div>
+
+<div class="text">
+<div class="movetext">
+<p>Social Gatherings</p>
+</div>
+</div>
+</div>
+<div class="box">
+    <div class="imgBox">
+        <img src="http://i44.photobucket.com/albums/f28/doujones/IMG_20180309_150659_zpshintlwhe.jpg" style="width: 100%"></div>
+    
+    <div class="text">
+        <div class="movetext">
+        <p>Dreaming</p>
+    </div>
+    </div>
+    </div>
+    <div class="box">
+            <div class="imgBox">
+                <img src="http://i44.photobucket.com/albums/f28/doujones/IMG_20180507_070224_143_zps01wdpil1.jpg" style="width: 100%"></div>
+            
+            <div class="text">
+                <div class="movetext">
+                <p>Cookouts</p>
+            </div>
+            </div>
+            </div>                                            
+            <div class="box">
+                <div class="imgBox">
+                    <img src="http://i44.photobucket.com/albums/f28/doujones/IMG_20180602_091717_494_zpsnfqg95zj.jpg" style="width: 100%"></div>
+                
+                <div class="text">
+                    <div class="movetext">
+                    <p>Basketball</p>
+        </div>
+        </div>
+           
+    </div>
+        
+        
+    
+</body>
+</html>
+  

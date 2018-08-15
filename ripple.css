@@ -1,0 +1,137 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    padding: 22px 0 0 ;
+    transition: all 0.5s ease-in-out;
+    border-bottom: none !important;
+}
+.navbar ul li a{
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 16px;
+    transition: all 0.5s ease-in;
+}
+
+.navbar ul li a:hover{
+    color: peru !important;
+    background: none !important;
+}
+
+.navbar-toggle{
+    border: 1px solid white !important;
+    color: white !important
+}
+
+navbar-toggle:hover{
+    background-color: purple !important;
+}
+
+.navbar-inverse .navbar-collapse{
+    border-color: transparent !important;
+    
+}
+
+.Atlanta{
+    border: 1px solid rgb(90, 14, 14);
+    border-radius: 50px;
+}
+
+.rippleone{
+    width: 100%;
+    height: 100vh !important;
+    background-image: url(http://i44.photobucket.com/albums/f28/doujones/IMG_20180410_180754_512_zpsuadwpqf2.jpg);
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+}
+
+.rippleone-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.65);
+    position: relative;
+}
+
+.rippleone-content{
+    position: absolute;
+    top: 39%;
+    width: 100%;
+    
+}
+.icons .fa{
+    font-size: 35px;
+    color: white;
+}
+
+.btn1{
+    padding: 16px 18px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid white;
+    border-top-left-radius: 16px;
+    transition: all 0.5s ease-in;
+    margin-right: -6px;
+}
+
+.btn1:hover{
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    border-color: yellow;
+
+}
+
+.social-media a.fa{
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    height: 75px;
+    width: 75px;
+    transition: all 0.5s ease-in;
+
+}
+.social-media a.fa:hover{
+    text-decoration: none;
+    background-color: yellow;
+    border: 1px dotted purple;
+}
+
+.rippleone .text{
+    display: inline-block;
+    font-size: 50px;
+}
+
+.secondary{
+    background-color: aqua;
+}
+
+.color2{
+    color: palevioletred;
+    text-align: center;
+}
+
+#footer li {
+    justify-content: center;
+    text-align: center;
+    padding: 2em 2em 2em ;
+    display: inline-block;
+   
+    transform: translate(50%, 600%);
+    list-style-type: none;
+}
+
+.samerow:hover{
+    transition: 2s ease-in-out;
+}
+
