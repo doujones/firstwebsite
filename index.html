@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
     <link rel="stylesheet" href="ripple.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -82,6 +84,25 @@
 </div> 
 </div>
 </div>
-</footer>    
+</footer>
+<script>
+    jQuery(document).ready(function(){
+
+
+
+$(".rippleone").ripples({
+  resolution: 512,
+  dropRadius: 20,
+  perturbance: 0.10
+});
+
+$(".words").typed({
+  strings:["first sentence."],
+  typespeed:0,
+})
+
+});
+
+</script>   
 </body>
 </html>
