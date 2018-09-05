@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dou Jones</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <style>
+   /* All elements should a box sizing! */ 
+    *{
+        box-sizing: border-box;
+    }
+
+    body{
+        margin: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: grey;
+        overflow-x: hidden;
+    }
+
+    .v-header{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+    
+    .container{
+        max-width: 960px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin:auto;
+        text-align:center;
+    }
+
+    .fullscreen-video-wrap{
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100vh;
+        overflow: hidden;
+    }
+
+    .fullscreen-video-wrap video{
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    .header-overlay{
+        height:100vh;
+        width:100vw;
+        position:absolute;
+        top:0;
+        left:0;
+        background: rgb(161, 11, 44);
+        z-index:1;
+        opacity: 0.65;
+    }
+
+    .header-content{
+        z-index:2;
+
+    }
+
+    .header-content h1{
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+
+    .header-content p{
+        font-size:1.5rem;
+        display:block;
+        padding-bottom:2rem;
+
+    }
+    .btn{
+        background: lightseagreen;
+        color: white;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        text-decoration:none;
+        padding: 1px 1px;
+        margin: 1rem 1rem;
+        top: -50;
+        left: -50;
+        position: fixed;
+    }
+
+    .btn:hover{
+        background: #ddd;
+        color: burlywood;
+    }
+
+    @media(max-width:960px){
+        .container{
+            padding-right: 3rem;
+            padding-left: 3rem;
+        }
+    }
+    footer{
+        z-index: 2;
+        overflow: hidden;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+       
+        
+    }
+    </style>
+</head>
+<body>
+    <header class="v-header container">
+        <div class="fullscreen-video-wrap">
+            <video src="/Users/doujones/Downloads/javascript/typed.js-master 2/instadown995463959.mp4"  autoplay= "true" muted="true" loop="loop" id="video2"></video>
+        </div>
+        <div class="header-overlay"></div>
+        <div class="header-content">
+            <h1>Roll Tide</h1>
+            <p>Alabama defeated Georgia back in January, 26-23 on a last play touchdown pass.</p>
+        <button id="video1" class="btn" onClick="vidplay()">Pause</button>
+    </div>
+        <footer>&copy; William Boswell August 2018</footer>
+
+        
+    </header>
+
+    
+ <script>
+ jQuery(document).ready(function () {
+
+
+
+
+setTimeout(function () {
+$('#video2').get(0).pause();  
+}, 2000);
+
+
+$("#video1").click(function(event){
+    
+     $('#video2').get(0).play();
+
+
+setTimeout(function () {
+    $('#video2').get(0).pause();
+}, 2000);
+});
+
+});
+   
+ </script>   
+</body>
+</html>
