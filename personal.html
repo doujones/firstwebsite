@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Users/doujones/Downloads/javascript/index2.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Hairline|Federant" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    
+    <!-- jQuery library -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">William Boswell</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="will active">
+                        <a href="biography.html">Biography</a>
+                    </li>
+                    <li class="will">
+                        <a href="contact.html">Contact Form</a>
+                    </li>
+                    <li class="will">
+                        <a href="hobbies.html">Hobbies</a>
+                    </li>
+                    <li class="will">
+                        <a href="home.html">Home</a>
+                    </li>
+
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="content">
+                    <h1>WILLIAM BOSWELL</h1>
+                    <H3> WEB DEVELOPER</H3>
+                    <hr>
+                    <a href="https://www.linkedin.com/in/doujones/">
+                        <button class="btn btn-default btn-lg">
+                            <i class="fab fa-linkedin"></i>LinkedIn</button>
+                    </a>
+                    <a href="https://github.com/doujones">
+                        <button class="btn btn-default btn-lg">
+                        <i class="devicon-github-plain colored">Github</i> 
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---Overlay-->
+
+    <div id="source">
+        <div id="source-overlay"></div>
+    </div>
+
+
+
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+    <script src="./jquery/typed.min.js"></script>
+    <script src="./typed.min.js"></script>
+    <script src="/Users/doujones/Downloads/javascript/jquery.ripples-min.js" type="text/javascript"></script>
+    <script>
+        jQuery(document).ready(function () {
+            $(".container").ripples({
+                resolution: 512,
+                dropRadius: 30,
+                perturbance: 0.09,
+            });
+        });
+        jQuery(document).ready(function () {
+            $(".navbar").ripples({
+                resolution: 1812,
+                dropRadius: 1000,
+                perturbance: .001,
+            });
+
+            $(".nav-bar").typed({
+    strings:("first sentence." ,"second sentence."),
+    typespeed:0,
+    loop:true,
+})
+
+ });
+    </script>
+
+
+
+<footer class="logo">
+  <!--CSS logo-->  
+  
+      
+ 
+  <a class="logo1" href="parallax.html">
+  <i class="devicon-css3-plain-wordmark colored" style="font-size:58px;color:yellowgreen"></i></a>
+ 
+  
+  <!-- PHP Logo -->
+
+<a class="logo2" href="contact.html">
+<i class=" devicon-php-plain colored" style="font-size:58px;color:purple"></i></a>
+
+<!-- React logo -->
+
+<a class="logo3" href="reactform1.html">
+<i class="devicon-react-original-wordmark colored" style="font-size:58px;color:#901efc"></i></a>
+
+<!-- JS logo -->
+
+<a class="logo4" href="video.html" >
+<i class="devicon-javascript-plain" style="font-size:58px;color:red"></i></a>
+
+</footer>
+</body>
+
+</html>
