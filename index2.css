@@ -1,0 +1,79 @@
+body{
+ background-image: url("http://i44.photobucket.com/albums/f28/doujones/IMG_20180309_150659_zpshintlwhe.jpg");   
+ background-size: cover;
+ background-position: center;
+ font-family: 'Federant', cursive;
+ color: wheat;
+}
+html{
+    height:100%;
+}
+#content{
+    text-align: center;
+    padding-top: 25%;
+    text-shadow: 0px 5px 3px rgba(0,0,0,0.2),
+                 0px 8px 13px rgba(0,0,0,0.2),
+                 0px 18px 23px rgba(0,0,0,0.2);
+}
+
+h1, h3{
+    color: whitesmoke;
+}
+
+h1{
+    font-weight: 750;
+    font-size: 4em;
+}
+
+hr{
+    width:400px;
+    border-top: 1px solid rgb(115, 33, 207);
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    max-width: 90%;
+}
+
+.navbar{
+    background-color: burlywood !important;
+}
+
+.will:hover{
+    background-color: orangered;
+    transition: 2s;
+}
+
+#source-overlay{
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    top: 0;
+    bottom: 0;
+    height:100%;
+    width: 100%;
+    z-index: -5;
+}
+
+footer{
+    position: absolute;
+    left: -1px;
+    bottom: 50px; 
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+
+.fa-linkedin{
+    color: royalblue;
+}
+
+.btn:hover{
+        color: blueviolet;
+}
+
+.jordan{
+    color: peru;
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: none;
+}
